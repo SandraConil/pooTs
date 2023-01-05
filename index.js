@@ -6,10 +6,10 @@ var Person = /** @class */ (function () {
     }
     // mes 2 methodes de ma class Personn
     Person.prototype.tellMyName = function () {
-        console.log("I am $(this.name)");
+        console.log("I am ".concat(this.name));
     };
     Person.prototype.tellMyAge = function () {
-        console.log("I am $(this.age) years old");
+        console.log("I am ".concat(this.age, " years old"));
     };
     return Person;
 }());

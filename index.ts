@@ -10,12 +10,12 @@ class Person {
     }
     
 // mes 2 methodes de ma class Personn
-    tellMyName(){
-        console.log(`I am $(this.name)`);
+    tellMyName(): void {
+        console.log(`I am ${this.name}`);
     }
 
-    tellMyAge(){
-        console.log(`I am $(this.age) years old`);
+    tellMyAge(): void{
+        console.log(`I am ${this.age} years old`);
     }
 }
 
